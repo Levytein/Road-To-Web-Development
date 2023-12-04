@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<head>
+<h1 id="title"> Example Job Application</h1>
+<p id="description">Hi, please fill the fields below with accurate information.
+</head>
+<body>
+<form id="survey-form">
+  <fieldset>
+<label id="name-label"> Please input your name: <input type="text" id="name" required placeholder="Please input your name here."//> </label>
+<label id="email-label"> Please input your email: <input type="email" id="email" required placeholder="Please input your email here."/> </label>
+<label id="number-label"> Please input your age: <input type="number" id="number" min="13" max="120"required placeholder="Please input your age here."/ /> </label>
+</fieldset>
+<fieldset>
+<label> Please upload an Official ID of yourself.
+<input type="file"
+</label>
+</fieldset>
+<label>Are you eligible to work in the U.S.A?</label>
+<fieldset>
+
+<select id="dropdown">
+<option>REQUIRED</option>
+<option>Yes</option>
+<option>No</option>
+</select>
+</fieldset>
+<fieldset>
+<label > Have you applied here before?</label>
+<label> <input type="radio" value="18yes" class="inline" name="yes" /> Yes
+<input type="radio" value="18no" class="inline"name="yes" >No
+</label>
+
+<label>If you  checked yes to the previous question what position did you previously apply for?
+  <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Enter the previous position you applied for here."></textarea>
+</label>
+</fieldset>
+<fieldset>
+<label>Are you fine with taking a drug test?</label>
+<label class="nospecial"><input type="checkbox"/ class="inline" value="YesLast"> Yes
+</label>
+
+<label class="special"> <input type="checkbox" class="inline" value="Yesbutinred"/> No</label>
+</fieldset>
+<input type="submit" value="Submit" id="submit" />
+
+</form>
+</body>
+</html>
