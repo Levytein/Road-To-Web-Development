@@ -1,0 +1,91 @@
+h1,.white{
+  font-family:OCR A Std, monospace;
+  text-align:center;
+  padding-top:20px;
+}
+header {
+  background-color: rgb(224,224,224);
+  width:100%;
+  align-items:center;
+  height:120px;
+ 
+}
+.desc{
+    font-family: Verdana;
+    padding-top:px;
+}
+.tributeinfo{
+  background-color: rgb(224,224,224);
+  border:10px solid rgb(224,224,224);
+
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width:100%;
+  padding-top:25px;
+  border:12px solid rgb(224,224,224);
+  margin-bottom:0;
+}
+.img{
+  display:block;
+  max-width:100%;
+}
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li{
+  padding:10px;
+  font-family:Arial;
+}
+.center{
+  text-align:center;
+}
+.tributeinfo{
+  background-color: cbd1cc;
+}
+.hover-container 
+{
+  position: relative;
+  display: inline-block;
+}
+/* Style for the word */
+.hover-word 
+{
+color: #007bff; /* Set the color of the word */
+cursor: pointer;
+}
+
+  /* Style for the description box */
+.description-box 
+{
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  background-color: #f8f9fa; /* Set the background color of the box */
+  padding: 10px;
+  border: 1px solid #ced4da; /* Set the border color */
+  border-radius: 4px; /* Add rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  width: 400px; /* Set the width of the box */
+  max-height:500px;
+  flex-direction:row;
+  align-items:center;
+}
+.description-image 
+{
+  max-width: 40%; /* Ensure the image doesn't exceed its container */
+  height: auto; /* Maintain the image's aspect ratio */
+  margin-right:10px;
+}
+/* Show the description box on hover */
+.hover-container:hover .description-box 
+{
+  display: flex;
+}

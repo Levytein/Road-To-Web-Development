@@ -1,0 +1,1 @@
+This is my second HTML Project exploring more on how to style a site. I made a tribute page to my all time favorite series Dragon Ball and its author Akira Toriyama.
