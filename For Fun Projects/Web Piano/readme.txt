@@ -1,0 +1,1 @@
+Tried recreating a piano to make me familiar with pseudo-elements in CSS. Reminder to self to add functionality.
